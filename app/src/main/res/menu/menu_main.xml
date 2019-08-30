@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/sort_name"
+        android:title="按名称排序 ↓↑"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/sort_date"
+        android:title="按日期排序 ↓↑"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/sort_size"
+        android:title="按大小排序 ↓↑"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/c1"
+        android:title="创建文件夹"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/y1"
+        android:title="创建文本文档"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/y2"
+        android:title="创建word文档"
+        android:orderInCategory="7"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+
+    <!--下面是搜索框的容器-->
+    <item
+        android:id="@+id/search"
+        android:title="搜索"
+        android:icon="@drawable/ic_file_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+</menu>
